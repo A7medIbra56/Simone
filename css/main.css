@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+ font-family: "Poppins", sans-serif;
+font-size: 18px;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 999999999;
+}
+.navbar-hov a{
+    color: white;
+}
+.navbar-hov a:hover
+{
+    color: #20c997;
+}
+.hader
+{
+ background-image: url(../img/intro-bg.jpg);
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+}
+.bagrond
+{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 34, 35, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-ggg
+{
+    color: #20c997;
+}
+
+.hader h1
+{
+
+    color: #fff!important;
+    font-size: 70px;
+    font-weight: 600;
+}
+.hader h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.hader h5
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.btn-hire
+{
+    color: #20c997;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 12px;
+    width: 150px;
+    border-color: #20c997;
+    transition: all 0.5s ease;
+}
+.btn-hire:hover
+{
+    background-color: #20c997;
+    color: #fff;
+}
+.abuot-me
+{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+ 
+    
+}
+
+.abuot-me h2
+{
+    font-size: 150px;
+    margin: auto;
+    opacity: 0.1;
+}
+.Know
+{
+    
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+    opacity: 1;
+    color: black;
+}
+.Know h4
+{
+    font-size: 40px;
+}
+.bord
+{
+   
+    position: relative;
+    left: 90px;
+    width: 70px;
+    height: 3px;
+    background-color: #20c997;
+}
+.Simone p{
+    padding-top: 10px;
+    font-family:  system-ui,"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    font-size: 18px;
+}
+.oli
+{
+    color: #20c997;
+    opacity: 0.7;
+}
+.sim
+{
+    opacity: 0.7;
+}
+.btn-do
+{
+    margin-top: 20px;
+    color: #fff;
+    background-color:#20c997;
+    padding: 12px;
+    width: 200px;
+    border-color: #20c997;
+}
+.container-porj
+{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.porject
+{
+    padding: 40px;
+    
+}
+.porject h2
+{
+    font-size: 40px;
+    opacity: 0.5;
+}
+.container-bag
+{
+    background-color:#f8f9fa;
+}
+.baggg
+{
+    background-color:#f8f9fa;
+
+}
+.ico
+{
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 70%;
+}
+.bi-ico
+{
+   color: #20c997;
+}
+.des h6
+{
+    padding-top: 20px;
+    color: tomato;
+}
+.des1
+{
+    padding-left: 10px;
+}
+.bor
+{
+    border: solid 1px rgb(215, 213, 213);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+}
+.badge-bag
+{
+    color: #fff;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: #20c997;
+    padding: 2px;
+}
+.des1 p
+{
+    opacity: 0.7;
+}
+.des p
+{
+    opacity: 0.7;
+}
+.bor
+{
+    margin-top: 15px;
+}
+.section5
+{
+    margin-bottom: 70px;
+}
+.my-skills
+{
+    margin-bottom: 10px;
+}
+
+.progress
+{
+    background-color: #20c997;
+    
+}
+
+.progress .progress-bar
+{
+    background-color: #20c997;
+   
+
+}
+.btn-bt 
+{
+    width: 220px;
+    color: #20c997;
+}
+.btn-bt span 
+{
+   
+    color: #20c997;
+}
+.btn-bt:hover span
+{
+ color: #f1efef;
+}
+.badro-img
+{
+    position: relative;
+    margin-bottom: 20px; 
+}
+.hovrx
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+   transition: all 0.5s;
+}
+.hovrx:hover
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    transition-duration: 0s;
+    z-index: 1;
+}
+.hovrx h6
+{
+    opacity: 0;
+}
+.hovrx:hover h6
+{
+    opacity: 1;
+    color: #fff;
+    z-index: 5;
+}
+.bg
+{
+    background-color:#f8f9fa;
+}
+
+.bi-ico
+{
+    color:#20c997;
+    margin: 2px;
+    
+}
+.bi-ico1
+{
+    color:#b4d716;
+    margin: 2px;
+    
+}
+.client img
+{
+
+    width: 20px;
+    height: 20px;
+}
+.bg-4
+{
+    background-color:#f8f9fa;
+    
+    
+}
+.ccc
+{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 20px;
+    
+}
+.bi-ic
+{
+    color: #20c997;
+}
+.ADDRESS h6
+{
+ opacity: 0.7;
+ margin-bottom: 10px;
+}
+.bg-end
+{
+    background-color: #fff;
+}
+.ede
+{
+    color: #20c997;
+}
+.Terms h6:hover
+{
+color: #20c997;
+}
+
+@media screen and (min-width:0px) and (max-width:399px)
+{
+
+    .fell
+    {
+        flex-direction: column;
+    }
+    .row-myex
+    {
+        flex-direction: column;
+        width: 500px;
+    }
+    
+}
+
+@media screen and (min-width:400px) and (max-width:500px)
+{
+    .row-myex
+    {
+        flex-direction: column;
+        width: 300px;
+    }
+    .bor
+    {
+        width: 300px;
+    }
+    .fell
+    {
+        flex-direction: column;
+    }
+    
+    .des
+    {
+        width: 100%;
+    }
+    .Know h4
+{
+    font-size: 20px;
+}
+    .Know
+{
+    
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    opacity: 1;
+    color: black;
+}
+
+  .abuot-me h2
+  {
+   
+    font-size: 60px;
+    opacity: 0.1;
+  }
+
+  
+  
+}
+@media screen and (min-width:500px) and (max-width:600px)
+{
+    .row-myex
+    {
+        flex-direction: column;
+        width: 300px;
+    }
+    .bor
+    {
+        width: 400px;
+    }
+    .fell
+    {
+        flex-direction: column;
+    }
+    
+    .row-cols-2.col.bor
+    {
+        width: 50%;
+        
+    }
+    .col-hh
+{
+ width: 100%;
+}
+
+    .Know
+{
+    
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    opacity: 1;
+    color: black;
+}
+
+  .abuot-me h2
+  {
+   
+    font-size: 100px;
+    opacity: 0.1;
+  }
+
+}
+@media screen and (min-width:599px) and (max-width:766px)
+{
+    
+    .fell
+    {
+        flex-direction: column;
+    }
+    
+    .Know
+    {
+        
+        position: absolute;
+        bottom: 20px;
+        left: 30%;
+        opacity: 1;
+        color: black;
+    }
+  .abuot-me h2
+  {
+    font-size: 110px;
+    opacity: 0.1;
+  }
+ 
+}
+
+
+@media screen and (min-width:767px) and (max-width:992px)
+{
+    
+    .res
+    {
+       position: relative;
+       bottom: 160px;
+    }
+    .res2
+    {
+        position: relative;
+        bottom: 160px;
+    }
+    .res3
+    {
+        position: relative;
+        bottom: 480px;
+        left: 360px;
+    }
+    .res4
+    {
+        position: relative;
+        bottom: 330px;
+    }
+    .res5
+    {
+        position: relative;
+        bottom: 330px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:768px)
+{
+    .res9
+    {
+    display: flex;
+    justify-content: center;
+    }
+    
+}
